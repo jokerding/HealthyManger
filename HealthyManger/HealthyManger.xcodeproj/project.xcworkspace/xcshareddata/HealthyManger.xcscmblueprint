@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8e0f7515-b07a-4ea3-8234-f71dfeb730f2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "8e0f7515-b07a-4ea3-8234-f71dfeb730f2" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8e0f7515-b07a-4ea3-8234-f71dfeb730f2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8EC1EF2A-B69F-413B-8115-33912967667E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8e0f7515-b07a-4ea3-8234-f71dfeb730f2" : "healthy_manger"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HealthyManger",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HealthyManger\/HealthyManger.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/t.svnchina.com\/svn\/healthy_manger",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8e0f7515-b07a-4ea3-8234-f71dfeb730f2"
+    }
+  ]
+}

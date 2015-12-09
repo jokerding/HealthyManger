@@ -1,0 +1,67 @@
+//
+//  PrefixHeader.pch
+//  HealthyManger
+//
+//  Created by qianfeng on 15/11/21.
+//  Copyright (c) 2015年 qianfeng. All rights reserved.
+//
+
+#ifndef HealthyManger_PrefixHeader_pch
+#define HealthyManger_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define API_APPID @"showapi_appid=11716"
+
+#define API_SIGN @"showapi_sign=85ed923a18084b97b313f18932bbe700"
+
+
+#define API_URL_COMMON_DISEASES_KM @"http://route.showapi.com/546-1?showapi_appid=11716&showapi_timestamp=%@&showapi_sign=85ed923a18084b97b313f18932bbe700"
+
+//https://route.showapi.com/546-1?showapi_appid=11716&showapi_timestamp=20151122102540&showapi_sign=0d0e53dd2b93484ee331a546caa7e20b
+#define API_URL_COMMON_DISEASES_SEARCH @"http://route.showapi.com/546-2?key=%@&page=%ld&showapi_appid=11716&showapi_timestamp=%@&subTypeId=%@&typeId=%@&showapi_sign=85ed923a18084b97b313f18932bbe700"
+#define API_URL_COMMON_DISEASES_MX @"http://route.showapi.com/546-3?id=%@&showapi_appid=11716&showapi_timestamp=%@&showapi_sign=85ed923a18084b97b313f18932bbe700"
+
+#define API_URL_DRUGINFO_CLASS @"https://route.showapi.com/93-96?showapi_appid=11716&showapi_timestamp=%@&showapi_sign=85ed923a18084b97b313f18932bbe700"
+
+#define API_URL_DRUGINFO_SEARCH @"https://route.showapi.com/93-97?keyword=%@&limit=20&manu=&page=%ld&showapi_appid=11716&showapi_timestamp=%@&type=%@&showapi_sign=85ed923a18084b97b313f18932bbe700"
+
+
+
+#pragma mark -- 天狗AIP接口
+#define TGAPI_KEY @"79b49eb96d4986088533e716083188cd"
+#define TGHEADER_FIELD @"apikey"
+#define TGIMGURL_HTTP @"http://tnfs.tngou.net/image"
+
+// 身体分类
+#define TGAPI_BODY_CLASS @"http://apis.baidu.com/tngou/disease/pclassify"
+
+// 药品分类
+#define TGAPI_DRUG_CLASS @"http://apis.baidu.com/tngou/drug/classify?id=%@"
+
+// 药品列表
+#define TGAPI_DRUG_LIST @"http://apis.baidu.com/tngou/drug/list?id=%@&page=%ld&rows=20"
+
+// 药品搜索
+#define TGAPI_DRUG_SEARCH @"http://apis.baidu.com/tngou/drug/search?name=drug&keyword=%@&page=1&rows=%ld&type=name,message"
+
+// 药品详情
+#define TGAPI_DRUG_SHOW @"http://apis.baidu.com/tngou/drug/show?id=%@"
+
+// 药品条码
+#define TGAPI_DRUG_CODE @"http://apis.baidu.com/tngou/drug/code?code=%@"
+
+// 药企大全
+// 省份
+#define TGAPI_FACTORY_PROVINCE @"http://apis.baidu.com/tngou/factory/province"
+
+// 药企列表
+#define TGAPI_FACTORY_LIST @"http://apis.baidu.com/tngou/factory/list?id=%@&page=%ld&rows=%@"
+
+// 周边药企
+#define TGAPI_FACTORY_LOCTION @"http://apis.baidu.com/tngou/factory/location?x=%@&y=%@&page=1&rows=20"
+
+#define SCRREN_MAIN_SIZE [UIScreen mainScreen].bounds.size
+
+#endif

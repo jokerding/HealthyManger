@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8EC1EF2A-B69F-413B-8115-33912967667E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HealthyManger</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8e0f7515-b07a-4ea3-8234-f71dfeb730f2</key>
+		<string>http://t.svnchina.com/svn/healthy_manger</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HealthyManger/HealthyManger.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8e0f7515-b07a-4ea3-8234-f71dfeb730f2</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8e0f7515-b07a-4ea3-8234-f71dfeb730f2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8e0f7515-b07a-4ea3-8234-f71dfeb730f2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>healthy_manger</string>
+		</dict>
+	</array>
+</dict>
+</plist>
